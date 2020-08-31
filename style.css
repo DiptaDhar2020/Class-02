@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	text-align: center;
+	height: 70px;
+	background-color: #242E36;
+	line-height: 70px;
+}
+.menu ul li{
+	display: inline-block;
+
+}
+.menu ul li a{
+	font-size: 25px;
+	color: white;
+	font-weight: 500;
+	margin: 0px 10px;
+	transition: 0.2s;
+}
+.menu ul li a:hover{
+	color: White;
+	font-size: 30px;
+	transition: 0.2s;
+}
+.banner{
+	background-image: url(image3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 120vh;
+}
+.reg{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.form{
+	padding: 0px 200px;
+}
+.form input{
+	display: block;
+	margin: 0 auto;
+	width: 35%;
+	
+	padding: 10px;
+	margin: 15px auto;
+	border-radius: 10px;
+	border: 3px solid Black;
+}
+.button{
+	width: auto !important;
+}
+.sign-up{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+}
+.social-icon{
+	text-align: center;
+	margin-top: 20px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icon ul li a i{
+	font-size: 25px;
+	height: 60px;
+	width: 60px;
+	background: #001FFF;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 60px;
+	color: White;
+	margin: 0px 10px;
+	transition: 0.3s;
+}
+.social-icon ul li a i:hover{
+	background-color: red;
+	transform: 0.3s;
+	transform: scale(1.3);
+}
